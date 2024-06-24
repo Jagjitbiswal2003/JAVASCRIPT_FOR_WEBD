@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventHandling</title>
+    <style>
+        
+        a{
+            text-decoration: none;
+            color: chocolate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .container{
+            width:500px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            row-gap: 2px;
+            background-color: aqua;
+            margin-top: 40px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            display: flex;
+            flex-shrink: 0;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="link">
+       <a href="https://www.elated.com/events-and-event-handlers/">
+        Click to see the Event Handelers</a>
+    </div>
+    <!--
+       Event Handler use - 
+     <div class="container">
+        <div class="box" id="box1"onclick=myfunction()>1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+     </div>
+    
+     <form action="#">
+        <input type="text" id="key" onkeypress="KeypressEvent()">
+      </form>
+    -->
+      <!-- Event listener use -->
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+     </div>
+
+     <script src="Assignment_36(EventHandling).js"></script>
+</body>
+</html>
