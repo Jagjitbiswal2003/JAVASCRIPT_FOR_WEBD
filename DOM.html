@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        .container{
+            width:500px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            row-gap: 2px;
+            background-color: aqua;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            display: flex;
+            flex-shrink: 0;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid white;
+        }
+
+        .round-box{
+             border: 3px solid orange;
+             border-radius: 50%;
+        }
+          
+    </style>
+</head>
+<body>
+        <div class="container" id="con">
+      <div class="box" id="box1">1</div>
+      <div class="box" id="box2">2</div>
+      <div class="box" id="box3">3</div>
+      <div class="box" id="box4">4</div>
+    </div>
+        <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eveniet neque unde! Voluptas enim odio quis veniam, tenetur nulla cumque rem alias maiores adipisci dolore? Sapiente possimus et a pariatur.</p>
+
+       <script src="Assignment_35(DOM).js"></script>
+</body>
+</html>
